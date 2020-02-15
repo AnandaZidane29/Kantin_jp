@@ -1,0 +1,14 @@
+body{
+    background-image: url(../img/bgtambah.jpg);
+}
+
+.container{
+    width: 40%;
+    margin-top: 3%;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.4);
+    padding: 50px;
+  
+}
+button{
+    width: 100%;
+}

@@ -1,0 +1,52 @@
+body, p{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.jumbotron{
+    min-height: 800px;
+    background: linear-gradient(to top, hsl(188, 63%, 44%), #d1d8da45);
+}
+
+header{
+    background: url("..//img/kantin.jpg");
+    background-size: cover;
+    background-position: 35%;
+}
+section{
+    min-height: 400px;
+}
+
+section#service{
+    min-height: 630px;
+}
+section#paket{
+    min-height: 600px;
+    font-size: 15px;
+}
+section#about{
+    min-height: 100px;
+}
+section#testimoni{
+    min-height: 250px;
+}
+.col-service{
+    min-height: 150px;
+}
+.card-img-top{
+    width: 350px;
+    height: 250px;
+}
+.social-rounded{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--light);
+    color: var(--transparent);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.social-rounded:hover{
+    background-color: var(--dark);
+    color: var(--light);
+}
